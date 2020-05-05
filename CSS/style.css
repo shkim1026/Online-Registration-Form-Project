@@ -55,6 +55,7 @@ legend {
 form {
     margin-top: 5px;
     border-top: rgb(53, 53, 75) 3px solid;
+    background: rgb(212, 210, 219);
 }
 
 label {
@@ -122,13 +123,28 @@ footer {
 
 /* Pseudo Classes */
 
-::placeholder {
+.req::placeholder {
     text-align: right;
     font-style: italic;
     padding-right: .5em;
     font-size: 14px;
 }
 
-:focus {
-    border: 3px rgb(31, 31, 82) solid;
+/* Transitions */
+
+input,
+textarea,
+select {
+    transition: ease-in-out, 0.5s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    background: white;
+}
+
+.sign-up:focus,
+.sign-up:hover {
+    background: rgb(28, 71, 153);
 }

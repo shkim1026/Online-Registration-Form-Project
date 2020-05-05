@@ -20,19 +20,19 @@
             <legend>Contact Information</legend>
             
             <label for="user_name">Full name</label>
-            <input class="field" type="text" name="name" id="user_name" placeholder="Required" required>
+            <input class="field req" type="text" name="name" id="user_name" placeholder="Required" required>
 
             <label for="user_email">Email Address</label>
-            <input class="field" type="email" name="email" id="user_email" placeholder="Required" required>
+            <input class="field req" type="email" name="email" id="user_email" placeholder="Required" required>
 
             <label for="user_tel">Phone Number</label>
-            <input class="field" type="tel" name="tel" id="user_tel">
+            <input class="field" type="tel" name="tel" id="user_tel" placeholder="ex: (555)555-5555">
 
             <label for="user_address">Street Address</label>
-            <input class="field" type="text" name="address" id="user_address">
+            <input class="field" type="text" name="address" id="user_address" placeholder="ex: 123 Fake St.">
 
             <label for="user_city">City</label>
-            <input class="field" type="text" name="city" id="user_city">
+            <input class="field" type="text" name="city" id="user_city" placeholder="ex: Springfield">
 
             <label for="user_state">State</label>
             <select class="field width" name="state" id="user_state">
@@ -92,7 +92,7 @@
             </select>
 
             <label for="user_zip">Zip Code</label>
-            <input class="field zip" type="number" name="zip" id="user_zip">
+            <input class="field zip" type="text" name="zip" id="user_zip" placeholder="ex: 12345">
         
         </fieldset>
 
@@ -128,7 +128,7 @@
                     <label for="txt_format">Plain text</label>
                 </div>
             </div>
-            
+
             <!-- Text Area -->
             <label for="txt_area">Other topics you'd like to hear about</label>
             <textarea class="textarea field" name="txt_area" id="txt_area"></textarea>
