@@ -52,6 +52,8 @@ label {
     padding: 10px 0;
 }
 
+/* Class styles */
+
 .contact-info {
     border-bottom: rgb(53, 53, 75) 3px solid;
 }
@@ -68,8 +70,12 @@ label {
     padding: 0 20px;
 }
 
-.state {
+.width {
     width: 100%;
+}
+
+.zip {
+    width: 40%;
 }
 
 .space-btm {
@@ -80,8 +86,27 @@ label {
     margin: 10px;
 }
 
+.textarea {
+    height: 125px;
+}
+
 .sign-up {
     background: rgb(0, 160, 160);
     color: white;
     margin: 40px 0;
+    height: 80px;
+    font-size: 25px;
+}
+
+/* Pseudo Classes */
+
+::placeholder {
+    text-align: right;
+    font-style: italic;
+    padding-right: .5em;
+    font-size: 14px;
+}
+
+select option:first-child {
+    color: red;
 }
