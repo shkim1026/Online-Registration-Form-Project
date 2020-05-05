@@ -1,0 +1,87 @@
+html,
+fieldset {
+    display: flex;
+    font-family: 'Merriweather', serif;
+}
+
+fieldset,
+header {
+    padding-bottom: 25px;
+}
+
+fieldset {
+    border-style: none;
+    padding-top: 13px;
+    margin-top: 25px;
+}
+
+header {
+    text-align: center;
+    border-bottom: rgb(53, 53, 75) 6px solid; 
+}
+
+h1 {
+    background-color: rgb(53, 53, 75);
+    color: white;
+    margin: 0;
+    padding: 1em;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+p {
+    padding: 0px 10px;
+    color: rgb(153, 153, 153)
+}
+
+legend {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form {
+    margin-top: 5px;
+    border-top: rgb(53, 53, 75) 3px solid;
+}
+
+label {
+    padding: 10px 0;
+}
+
+.contact-info {
+    border-bottom: rgb(53, 53, 75) 3px solid;
+}
+
+.field,
+.sign-up {
+    width: calc(100% - 40px);
+    border-radius: 5px;
+    height: 50px;
+    background: rgb(234, 234, 234);
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 0 20px;
+}
+
+.state {
+    width: 100%;
+}
+
+.space-btm {
+    padding-bottom: 10px;
+}
+
+.chk-radio {
+    margin: 10px;
+}
+
+.sign-up {
+    background: rgb(0, 160, 160);
+    color: white;
+    margin: 40px 0;
+}
