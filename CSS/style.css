@@ -1,3 +1,8 @@
+
+body {
+    width: 100%;
+}
+
 html,
 fieldset {
     display: flex;
@@ -16,8 +21,12 @@ fieldset {
 }
 
 header {
-    text-align: center;
     border-bottom: rgb(53, 53, 75) 6px solid; 
+}
+
+header,
+footer {
+    text-align: center;
 }
 
 h1 {
@@ -35,7 +44,7 @@ h2 {
 
 p {
     padding: 0px 10px;
-    color: rgb(153, 153, 153)
+    color: rgb(153, 153, 153);
 }
 
 legend {
@@ -51,6 +60,19 @@ form {
 label {
     padding: 10px 0;
 }
+
+select {
+    color: rgb(80, 80, 80)
+}
+
+select:focus {
+    color: black;
+}
+
+footer {
+    font-style: italic;
+}
+
 
 /* Class styles */
 
@@ -107,6 +129,6 @@ label {
     font-size: 14px;
 }
 
-select option:first-child {
-    color: red;
+:focus {
+    border: 3px rgb(31, 31, 82) solid;
 }
