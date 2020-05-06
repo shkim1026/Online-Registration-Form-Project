@@ -119,6 +119,8 @@ footer {
 
 .textarea {
     height: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .sign-up {
