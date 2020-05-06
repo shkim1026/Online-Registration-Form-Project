@@ -34,8 +34,11 @@ h2 {
     padding-top: 10px;
 }
 
-p {
-    padding-top: 0px 10px;
+header p {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     color: rgb(153, 153, 153);
     border-bottom: rgb(53, 53, 75) 6px solid;
     margin-bottom: 0;
@@ -66,6 +69,7 @@ select:focus {
 
 footer {
     font-style: italic;
+    color: rgb(100, 100, 100)
 }
 
 
@@ -73,6 +77,8 @@ footer {
 
 .contact-info {
     border-bottom: rgb(53, 53, 75) 3px solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .field,
@@ -82,13 +88,17 @@ footer {
     height: 50px;
     background: rgb(234, 234, 234);
     border: none;
-    margin-bottom: 10px;
-    margin-top: 5px;
+    margin-bottom: 16px;
+    margin-top: 10px;
     padding: 0 20px;
 }
 
 .width {
     width: 100%;
+}
+
+.zip-container {
+    width: calc(100% - -13px);
 }
 
 .zip {
@@ -149,6 +159,21 @@ select:focus {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
+        max-width: 900px;
+    }
+
+    header p {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 3em;
+    }
+
+    fieldset {
+        margin-top: 3em;
+    }
+
+    .contact-info {
+        padding-bottom: 3em;
     }
 
     .inline {
