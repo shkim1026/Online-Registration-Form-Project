@@ -97,6 +97,10 @@ footer {
     width: 100%;
 }
 
+.no-mgn {
+    margin-left: 0;
+}
+
 .zip-container {
     width: calc(100% - -13px);
 }
